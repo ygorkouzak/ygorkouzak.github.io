@@ -63,14 +63,13 @@ main h2 {
 }
 
 .portfolio-card {
-    height: 250px;
+
+    aspect-ratio: 16 / 9;      /* Define a proporção de 16:9 (widescreen) */
     border-radius: 8px;
-    /* Linhas alteradas/adicionadas abaixo */
-    background-color: #000000; /* Adiciona um fundo preto para preencher espaços */
-    background-size: contain;      /* Garante que a imagem inteira apareça */
-    background-position: center center; /* Centraliza a imagem perfeitamente */
-    background-repeat: no-repeat;  /* Impede que a imagem se repita */
-    /* Fim das linhas alteradas */
+    background-color: #000000;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -136,3 +135,4 @@ footer p {
     color: #555;
 
 }
+
