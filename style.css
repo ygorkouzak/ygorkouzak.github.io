@@ -4,7 +4,7 @@
     --card-color: #2C2C2C;       /* Cinza mais claro para os cards e cabeçalho */
     --accent-color: #0098cc;     /* Azul vibrante para destaques */
     --text-color: #FFFFFF;       /* Branco para textos principais */
-    --text-secondary: #B0B0B0;   /* Cinza claro para subtítulos e ícones */
+    --text-secondary: #FFFFFF;   /* Cinza claro para subtítulos e ícones */
 }
 
 * {
@@ -175,4 +175,5 @@ main h2 {
         justify-content: center;
     }
 }
+
 
