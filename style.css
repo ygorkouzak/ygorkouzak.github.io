@@ -1,8 +1,8 @@
 /* Paleta de Cores Final - Inspirada no seu Currículo */
 :root {
-    --background-color: #1E1E1E; /* Cinza-carvão do fundo */
+    --background-color: #0e1835; /* Cinza-carvão do fundo */
     --card-color: #2C2C2C;       /* Cinza mais claro para os cards e cabeçalho */
-    --accent-color: #00BFFF;     /* Azul vibrante para destaques */
+    --accent-color: #0098cc;     /* Azul vibrante para destaques */
     --text-color: #FFFFFF;       /* Branco para textos principais */
     --text-secondary: #B0B0B0;   /* Cinza claro para subtítulos e ícones */
 }
@@ -175,3 +175,4 @@ main h2 {
         justify-content: center;
     }
 }
+
