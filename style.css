@@ -65,8 +65,12 @@ main h2 {
 .portfolio-card {
     height: 250px;
     border-radius: 8px;
-    background-size: cover;
-    background-position: center top; /* Mostra o topo da imagem */
+    /* Linhas alteradas/adicionadas abaixo */
+    background-color: #000000; /* Adiciona um fundo preto para preencher espaços */
+    background-size: contain;      /* Garante que a imagem inteira apareça */
+    background-position: center center; /* Centraliza a imagem perfeitamente */
+    background-repeat: no-repeat;  /* Impede que a imagem se repita */
+    /* Fim das linhas alteradas */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -130,4 +134,5 @@ footer p {
 
 .social-links span {
     color: #555;
+
 }
