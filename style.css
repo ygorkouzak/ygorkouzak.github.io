@@ -2,7 +2,7 @@
 :root {
     --background-color: #0e1835; /* fundo */
     --card-color: #2C2C2C;       /* Cinza mais claro para os cards e cabeçalho */
-    --accent-color: #0098cc;     /* Azul vibrante para destaques */
+    --accent-color: #4872c3;     /* Azul vibrante para destaques */
     --text-color: #FFFFFF;       /* textos principais */
     --text-secondary: #FFFFFF;   /* subtítulos e ícones */
 }
@@ -175,6 +175,7 @@ main h2 {
         justify-content: center;
     }
 }
+
 
 
 
