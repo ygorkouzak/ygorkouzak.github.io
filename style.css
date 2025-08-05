@@ -169,6 +169,13 @@ body {
     color: var(--text-color);
     margin: 0;
 }
+.stat-box-p-small {
+    font-size: 0.95rem; /* Fonte menor para textos descritivos */
+    font-weight: 400;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-top: auto; /* Adicionado para empurrar o texto para baixo */
+}
 /* --- FIM DA SEÇÃO 'SOBRE MIM' --- */
 
 
@@ -248,4 +255,5 @@ main {
         margin: 0 auto;
     }
 }
+
 
